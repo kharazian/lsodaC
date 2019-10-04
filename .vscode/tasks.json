@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildTask",
+            "command": "gcc.exe",
+            "args": [
+                "-g",
+                "lsoda.c",
+                "lsodatest.c",
+
+                "-o",
+                "${workspaceRoot}\\lsodatest.exe"
+            ]
+        }
+    ]
+}
